@@ -45,8 +45,8 @@ match sexo.upper():
 >A variável **peso** irá receber a quantidade em Kg da pesca inserido pelo usuário. <br> 
 ><br>
 ><br> 
->Para esse caso de uso, foi utilizado uma estrutura condicional **If** , que irá verificar o dado da <br> variável peso, e da variável peso máximo. Verificando se o >valor fornecido pelo usuário é maior <br> ou menor que o que o permitido.  
->Se o valor for maior que o permitido a variável **multa** irá receber o cálculo do valor da multa. ><br> 
+>Para esse caso de uso, foi utilizado uma estrutura condicional **If** , que irá verificar o dado da <br> variável peso, e da variável peso máximo. Verificando se o valor fornecido pelo usuário é maior <br> ou menor que o que o permitido.  
+>Se o valor for maior que o permitido a variável **multa** irá receber o cálculo do valor da multa.<br> 
 >Em ambos os casos teremos um print de saída informando se houve multa ou se está dentro do permitido. <br> 
 
 ``` 
