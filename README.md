@@ -71,4 +71,38 @@ elif peso <= pesoMax:
     print(f'Parabéns, você pescou {peso:.2f}Kg e não precisará pagar multa.'); 
 
 ``` 
+
+<br><br>
+6. Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos). 
+
+ 
+
+>## Documentação 
+
+> 
+>A variável “tamanhoArquivo” irá receber o o tamanho informado pelo usurário em MB. <br> 
+>Logo em seguida a mesma variável irá receber ela mesma, porém com seu valor recebido em <br> 
+>MB convertiado para Mbps. <br> 
+> <br>
+>A variável velocidade irá receber a velocidade da internet a ser informada pelo usuário em Mbps. <br> 
+> Após todas as variáveis terem recebido seu respectivos valores, a variável “tempoDownload”, irá <br> 
+><br>
+>receber o cálculo que será feito utilizando a variável de tamanho do arquivo, dividida pela velocidade informada. <br> 
+>Depois que a variável “tempoDownload” receber o seu devido valor, esse valor será utilizado para fazer a conversando para minutos a ser na variável “minutos”, que em seguida será utilizada para um print que irá mostrar a informação solicitada. 
+
+``` 
+
+tamanhoArquivo = float(input('Quantos MB possui o seu arquivo? ')); 
+tamanhoArquivo = tamanhoArquivo * 8; 
+
+
+velocidade = int(input('Quantos Mbps de velocidade sua internet possui? ')); 
+
+tempoDownload = tamanhoArquivo / velocidade; 
+
+minutos = float(tempoDownload/60); 
+
+print(f'O tempo aproximado de download para esse arquivo será de {minutos:.2f} minutos.'); 
+
+``` 
  
